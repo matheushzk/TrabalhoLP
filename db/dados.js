@@ -9,8 +9,7 @@
       "quantidade": "100"
     }
   ],
-  "fornecedores": [
-  ],
+  "fornecedores": [],
   "entregadores": [],
   "categorias": [],
   "usuarios": [
