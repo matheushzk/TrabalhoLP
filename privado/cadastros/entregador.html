@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/bootstrap.min.css"/>
+    <title>Cadastro de Entregadores</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <h2 class="text-center text-dark mt-5">Cadastro de entregadores</h2>
+                <div class="card my-5">
+                    <form action="#" method="POST" class="card-body cardbody-color p-lg-5" id="cadastroEntregadores">
+                        <div class="mb-3">
+                            <input type="text" class="form-control" id="nome" name="nome" aria-describedby="emailHelp"
+                            placeholder="Nome do entregador">
+                        </div>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" id="cpf" name="cpf" aria-describedby="emailHelp"
+                            placeholder="CPF">
+                        </div>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" id="placa" name="placa" aria-describedby="emailHelp"
+                            placeholder="Placa do veículo">
+                        </div>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" id="veiculo" name="veiculo" aria-describedby="emailHelp"
+                            placeholder="Tipo do veículo">
+                        </div>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" id="telefone" name="telefone" aria-describedby="emailHelp"
+                            placeholder="Telefone">
+                        </div>
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-primary">Cadastrar</button>
+                            <a class="btn btn-primary" href="/menu.html">Voltar</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div id="tabela" class="table">
+
+        </div>
+    </div>
+</body>
+<script src="/js/entregador.js"></script>
+</html>

@@ -1,0 +1,30 @@
+{
+  "name": "trabalhowebapp",
+  "version": "1.0.0",
+  "description": "Trabalho de LP1",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matheushzk/TrabaiWebApp.git"
+  },
+  "keywords": [
+    "trabalho",
+    "lp1",
+    "webapp"
+  ],
+  "author": "Matheus e Alex",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matheushzk/TrabaiWebApp/issues"
+  },
+  "homepage": "https://github.com/matheushzk/TrabaiWebApp#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "express-session": "^1.18.1"
+  }
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/bootstrap.min.css"/>
+    <title>Cadastro de Categorias</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <h2 class="text-center text-dark mt-5">Cadastro de usuários</h2>
+                <div class="card my-5">
+                    <form action="#" method="POST" class="card-body cardbody-color p-lg-5" id="cadastroCategorias">
+                        <div class="mb-3">
+                            <input type="text" class="form-control" id="nome" name="nome" aria-describedby="emailHelp"
+                            placeholder="Nome da categoria">
+                        </div>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" id="descricao" name="descricao" aria-describedby="emailHelp"
+                            placeholder="Descrição">
+                        </div>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" id="codigo" name="codigo" aria-describedby="emailHelp"
+                            placeholder="Código">
+                        </div>
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-primary">Cadastrar</button>
+                            <a class="btn btn-primary" href="/menu.html">Voltar</a>
+                        </div>
+                        
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div id="tabela" class="table">
+
+        </div>
+    </div>
+</body>
+<script src="/js/categoria.js"></script>
+</html>
