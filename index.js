@@ -8,22 +8,6 @@ let lista = [];
 const app = express();
 const porta = 3000;
 
-function obterDados(usuario, senha){
-    fetch("http://localhost:4000/usuarios", {
-        method: "GET"
-    })
-    .then((resposta) => {
-        if(resposta.ok)
-            return resposta.json();
-    })
-    .then((usuarios) => {
-        lista = usuarios;
-    })
-    .catch((erro) => {
-        alert("Erro: "+erro);
-    });
-}
-
 app.use(express.urlencoded({extended: true}));
 
 app.use(session({
