@@ -12,11 +12,11 @@
   ],
   "produtos": [
     {
-      "id": "dd5a",
-      "nome": "coca-cola",
-      "descricao": "bebida gaseificada",
-      "preco": "7",
-      "quantidade": "100"
+      "id": "16f4",
+      "nome": "Coca-Cola 2L",
+      "descricao": "Bebida gaseificada.",
+      "preco": "R$ 10,00",
+      "quantidade": "15"
     }
   ],
   "fornecedores": [],
