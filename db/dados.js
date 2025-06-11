@@ -1,5 +1,15 @@
 {
-  "clientes": [],
+  "clientes": [
+    {
+      "id": "7da1",
+      "nome": "ALEX MIGUEL XAVIER",
+      "cpf": "111.111.111-11",
+      "telefone": "18997113642",
+      "cidade": "Martinópolis",
+      "uf": "SP",
+      "cep": "19500-000"
+    }
+  ],
   "produtos": [
     {
       "id": "dd5a",
