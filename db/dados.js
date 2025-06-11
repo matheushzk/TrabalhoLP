@@ -19,7 +19,16 @@
       "quantidade": "15"
     }
   ],
-  "fornecedores": [],
+  "fornecedores": [
+    {
+      "id": "e8ee",
+      "nome": "Ambev S.A.",
+      "cnpj": "07.526.557/0001-00",
+      "telefone": "0800 725 0001",
+      "cidade": "São Paulo",
+      "email": "faleconosco@ambev.com.br"
+    }
+  ],
   "entregadores": [],
   "categorias": [],
   "usuarios": [
